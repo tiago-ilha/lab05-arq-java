@@ -24,7 +24,7 @@ import br.nom.penha.bruno.arquiteto.model.Produto;
 @ServerEndpoint("/monitor")
 public class MonitorEndpoint {
 
-    private static final Set<Session> monitores = ConcurrentHashMap.newkeySet();
+    private static final Set<Session> monitores = ConcurrentHashMap.newKeySet();
 
     @OnOpen
     public void init(Session session) {
